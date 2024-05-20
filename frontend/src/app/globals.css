@@ -1,0 +1,14 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-style: none;
+  outline: none;
+  list-style: none;
+  box-shadow: none;
+}
+
+body{
+  background-color: #0a4b88;
+}
