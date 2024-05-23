@@ -26,22 +26,28 @@ Este desafio consiste em desenvolver uma aplicação em React que interage com u
 1. Clone o repositório:
 ```git clone https://github.com/guicardosooliveira/internship-challenge.git```
 
-2. Abra o diretório do frontend:
+2. Entre no diretório clonado:
+```cd nome_do_diretório```
+
+3. Abra o diretório do frontend:
 ```cd ./frontend```
 
-3. Instale as dependencias:
+4. Instale as dependencias:
 ```npm install```
 
-4. Crie um arquivo .env.local e coloque a variável de ambiente necessária para a conexão com o backend, como o .env.example
+5. Execute o comando a seguir para criar o arquivo .env.local, seguindo o formado do .env.exemplo
+```cd .env.local.example .env.local```
 
-5. Inicie o servidor:
+6. Inicie o servidor:
 ```npm run dev```
 
-6. Abra o diretório do backend:
+7. Abra um novo terminal e entre no diretório do backend:
 ```cd ./backend```
 
-7. Instale as dependências:
+8. Instale as dependências:
 ```pip install -r requirements.txt```
+
+> Caso executado no windows, é recomendado executar o terminal em modo administrador.
 
 8. Inicie o servidor:
 ```python manage.py runserver```
