@@ -6,9 +6,10 @@ def calculateIntervalMMC(min: int, max: int) -> int:
 
 def calculateMMC(min: int, max: int) -> int:
     return abs(min*max) // calculateMDC(min, max)
-
+    
 def calculateMDC(min: int, max: int) -> int:
-    if max == 0:
-        return min
-    else:
-        return calculateMDC(max, (min % max))
+    while max != 0:
+        rest = min % max
+        min = max
+        max = rest
+    return min
