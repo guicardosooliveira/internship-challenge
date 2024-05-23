@@ -25,15 +25,21 @@ export default function Home() {
 
     try{
       if ( maxNumber - minNumber <= 0) {
-          throw new Error()
+          throw new Error('O intervalo entre os números deve ser maior que 0')
       } else {
         const result = await fetchApi(minNumber, maxNumber)
-        setAnswer(result)
+        if (!result.error){
+          setAnswer(result.result)
+        } else {
+          throw new Error(result.error)
+        }
       }
     } catch (error) {
-      setError('root',{
-        message: 'O intervalo entre os números deve ser maior que 0'
-      })
+      if (error instanceof Error){
+        setError('root',{
+          message: error.message
+        })
+      }
     }
   }
 
