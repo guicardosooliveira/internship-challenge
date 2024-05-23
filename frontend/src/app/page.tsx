@@ -50,10 +50,10 @@ export default function Home() {
         <ContainerInput>
           <Input 
             {...register("minNumber", {
-              required:'Este campo é obrigatório',
+              required:'Este campo é obrigatório.',
               min: {
                 value: 1,
-                message: 'O valor deve ser um inteiro positivo'
+                message: 'O valor deve ser um inteiro positivo.'
               },
             })} 
             type="number" 
@@ -64,10 +64,10 @@ export default function Home() {
           <ContainerInput>
             <Input 
               {...register("maxNumber", {
-                required:'Este campo é obrigatório',
+                required:'Este campo é obrigatório.',
                 min: {
                   value: 1,
-                  message: 'O valor deve ser um inteiro positivo'
+                  message: 'O valor deve ser um inteiro positivo.'
                 },
               })} 
               type="number" 
@@ -81,7 +81,7 @@ export default function Home() {
       </Button>
 
       {errors.root && <SpanError>{errors.root.message}</SpanError>}
-      {answer !== null && (<SpanAnswer>O MMC do intervalo fornecido é {answer}</SpanAnswer>)}
+      {answer !== null && (<SpanAnswer>O MMC do intervalo fornecido é {answer}.</SpanAnswer>)}
 
       </Form>
     </Main>
