@@ -48,11 +48,12 @@ Este desafio consiste em desenvolver uma aplicação em React que interage com u
 
 9. Abra o servidor local gerado pelo frontend e aproveite a calculadora!
 
-> Observação: O backend utiliza CORS para permitir o compartilhamento de recursos entre diferentes origem. Por isso, certifique-se de que no arquivo settings.py, no diretório backend > backend, na parte do código CORS_ALLOWED_ORIGINS, a URL do seu servidor local frontend esteja correta.
+> Observação: O backend utiliza CORS para permitir o compartilhamento de recursos entre diferentes origem. Por isso, certifique-se de que no arquivo settings.py, no diretório backend > backend, na parte do código CORS_ALLOWED_ORIGINS, a URL do seu servidor local frontend esteja correta. Além disso, certifique-se que na pasta env.local, no frontend, a URL do backend esteja definida corretamente.
 
-## Submissão
-Para submeter sua solução, siga os passos abaixo:
-1. Crie um fork deste repositório (*Mantenha privado).
-2. Desenvolva sua solução no fork criado.
-3. Certifique-se de incluir um `README` em seu repositório com instruções claras sobre como configurar e executar sua aplicação, incluindo o servidor Django.
-4. Envie um e-mail para [rh@salutho.com] com o assunto "Submissão do Desafio de Estágio - [Seu Nome Completo]" com o link do repositório GitHub do seu projeto.
+## Contato
+
+Se houver alguma dúvida, estou disponível nas formas de contato a seguir:
+
+- gmail: guicardosodeoliveira@gmail.com
+- linkedin: https://www.linkedin.com/in/guilherme-cardoso-oliveira/
+- github: https://github.com/guicardosooliveira
